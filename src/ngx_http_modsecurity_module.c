@@ -580,7 +580,7 @@ ngx_http_modsecurity_init(ngx_conf_t *cf)
     }
     /**
      *
-     * We want to process everything in the NGX_HTTP_ACCESS_PHASE because we need to allow 
+     * We want to process everything in the NGX_HTTP_ACCESS_PHASE because we need to allow
      * ngx_http_limit_*_module to run
      *
      */
